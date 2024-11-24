@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .liStyles {
+        @apply inline-flex items-center justify-center flex-row gap-3 md:flex-col  w-[90%] flex-1
+    }
+
+    .liButtonsStyles {
+        @apply px-4 py-2 border border-solid w-[90%]
+    }
+}
